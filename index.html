@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE.CO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Carro de compras -->
+            <div class="col-md-8">
+                <h4>Carro de Compras</h4>
+                <ul class="list-group">
+                    <!-- Artículo 1 -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img src="https://png.pngtree.com/png-vector/20220120/ourmid/pngtree-black-t-shirt-template-png-image_4293336.png"
+                                alt="Polera Color Burdeo" class="me-3" width="50px" height="50px">
+                            <span>Polera <strong>Color Burdeo</strong></span>
+                        </div>
+                        <div>
+                            <div class="input-group">
+                                <button class="btn btn-outline-secondary btn-sm">-</button>
+                                <input type="text" class="form-control text-center" value="1">
+                                <button class="btn btn-outline-secondary btn-sm">+</button>
+                            </div>
+                        </div>
+                        <span class="fw-bold">$44.000</span>
+                    </li>
+                    <!-- Artículo 2 -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img src="https://png.pngtree.com/png-vector/20220120/ourmid/pngtree-black-t-shirt-template-png-image_4293336.png"
+                                alt="Polera Color Gris" class="me-3" width="50px" height="50px">
+                            <span>Polera <strong>Color Gris</strong></span>
+                        </div>
+                        <div>
+                            <div class="input-group">
+                                <button class="btn btn-outline-secondary btn-sm">-</button>
+                                <input type="text" class="form-control text-center" value="1">
+                                <button class="btn btn-outline-secondary btn-sm">+</button>
+                            </div>
+                        </div>
+                        <span class="fw-bold">$44.000</span>
+                    </li>
+                    <!-- Artículo 3 -->
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <img src="https://png.pngtree.com/png-vector/20220120/ourmid/pngtree-black-t-shirt-template-png-image_4293336.png"
+                                alt="Polera Color Negro" class="me-3" width="50px" height="50px">
+                            <span>Polera <strong>Color Negro</strong></span>
+                        </div>
+                        <div>
+                            <div class="input-group">
+                                <button class="btn btn-outline-secondary btn-sm">-</button>
+                                <input type="text" class="form-control text-center" value="1">
+                                <button class="btn btn-outline-secondary btn-sm">+</button>
+                            </div>
+                        </div>
+                        <span class="fw-bold">$44.000</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- Resumen de la compra -->
+            <div class="col-md-4">
+                <h4>Resumen de la Compra</h4>
+                <div class="border p-3">
+                    <p>3 artículos <span class="float-end">$132.000</span></p>
+                    <p>
+                        Envío
+                        <select class="form-select form-select-sm w-75 d-inline">
+                            <option>Envío Estándar $3.000</option>
+                            <option>Envío Express $5.000</option>
+                        </select>
+                    </p>
+                    <p>
+                        CÓDIGO DE DESCUENTO
+                    <div class="input-group" id="descuento">
+                        <input type="text" class="form-control" placeholder="Código de descuento">
+                        <button class="btn btn-primary">→</button>
+                    </div>
+                    </p>
+                    <hr>
+                    <p>PRECIO TOTAL <span class="float-end fw-bold">$137.000</span></p>
+                    <button class="btn btn-danger w-100">Realizar Compra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
