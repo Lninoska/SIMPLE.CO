@@ -18,14 +18,18 @@ $(document).ready(function () {
     $("#boton").click(function () {
         $(this).text("¿Estas seguro?")
         $(this).css("background-color", "#FFBA14")
+        $(this).css("border-color", "#FFBA14")
     })
     $("#boton").dblclick(function () {
         $(this).text("¿Estas seguro?")
         $(this).css("background-color", "#252440")
+        $(this).css("color", "white")
+        $(this).css("border-color", "#252440")
     });
     $("#boton").mouseout(function () {
         $(this).css("background-color", "lightgray")
         $(this).text("COMPRADO")
         $(this).css("color", "green")
+        $(this).css("border-color", "red")
     })
 })
